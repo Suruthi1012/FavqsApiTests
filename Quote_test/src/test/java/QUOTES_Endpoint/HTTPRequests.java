@@ -27,6 +27,10 @@ public class HTTPRequests {
     public static final String testMarkQuoteAsFavoriteEndpoint = (BASE_URL + "/quotes/{quoteId}");
     public static final String getQuoteByIdEndpoint = (BASE_URL + "/quotes/{quote_id}");
     public static final String quoteId = "42861";
+    public static final String login = "suruthithoppeyjeeva";
+    public static final String email = "suruthi2023ix@gmail.com";
+    public static final String password = "Suru@1012";
+
     public String userToken;
     
  
@@ -87,17 +91,18 @@ public class HTTPRequests {
   
     @Test(priority=1)
     public void create_user() {
+	String requestBody = "{ \"user\": { \"login\": \"" + login + "\", \"password\": \"" + password + "\" ,\"email\": \"" + email  + "\" } }";
         Response response = given()
                 .header("Authorization", "Token token=" + API_KEY)
                 .contentType(ContentType.JSON)
-        	    .accept(ContentType.JSON) 
-        	    .body("{ \"user\": { \"login\": \"suruthi12\", \"email\": \"suruthi12@gmail.com\", \"password\": \"Suru@1012\" } }")
+        	.accept(ContentType.JSON) 
+        	.body(requestBody)
                 .post(createUserEndpoint);
         response.then() 
         		.statusCode(200)
         		.log().all()
         		.body("User-Token", notNullValue())
-        		.body("login", equalTo("suruthi12"));
+        		.body("login", equalTo(login));
 
         userToken = response.jsonPath().getString("User-Token");
         System.out.println(userToken);
@@ -105,13 +110,14 @@ public class HTTPRequests {
     
      @Test(priority=2)
     public void create_user_session() {
+	String requestBody = "{ \"user\": { \"login\": \"" + login + "\", \"password\": \"" + password + "\"} }";
     	String createUserSessionEndpoint = BASE_URL + "/session";
         Response response = given()
                 .header("Authorization", "Token token=" + API_KEY)
                 .header("User-Token", "Bearer " + userToken)
                 .contentType(ContentType.JSON)
-        	    .accept(ContentType.JSON) 
-        	    .body("{ \"user\": { \"login\": \"suruthi12\", \"password\": \"Suru@1012\" } }")
+        	.accept(ContentType.JSON) 
+        	.body(requestBody)
                 .post(createUserSessionEndpoint);
         response.then() 
         		.statusCode(200)
