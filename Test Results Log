@@ -1,0 +1,1102 @@
+[RemoteTestNG] detected TestNG version 7.9.0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:48 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 29
+etag: W/"fcffcd65fba93f1856ce6e294b0c6bd5"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 06cbcc42-8a8c-4edc-bd27-3a85e8d2eb61
+x-runtime: 0.230750
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "page": 1,
+    "last_page": false,
+    "quotes": [
+        {
+            "id": 53213,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "society"
+            ],
+            "url": "https://favqs.com/quotes/john-f-kennedy/53213-the-very-word-",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "John F. Kennedy",
+            "author_permalink": "john-f-kennedy",
+            "body": "The very word 'secrecy' is repugnant in a free and open society and we are as a people inherently and historically opposed to secret societies, to secret oaths, and to secret proceedings."
+        },
+        {
+            "id": 57262,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "time"
+            ],
+            "url": "https://favqs.com/quotes/victor-hugo/57262-greater-than--",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Victor Hugo",
+            "author_permalink": "victor-hugo",
+            "body": "Greater than the tread of mighty armies is an idea whose time has come."
+        },
+        {
+            "id": 464,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "luck"
+            ],
+            "url": "https://favqs.com/quotes/anonymous/464-be-grateful-for-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Anonymous",
+            "author_permalink": "anonymous",
+            "body": "Be grateful for luck, but don't depend on it."
+        },
+        {
+            "id": 828,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "age",
+                "religion"
+            ],
+            "url": "https://favqs.com/quotes/mahatma-gandhi/828-every-formula-o-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 1,
+            "author": "Mahatma Gandhi",
+            "author_permalink": "mahatma-gandhi",
+            "body": "Every formula of every religion has in this age of reason, to submit to the acid test of reason and universal assent."
+        },
+        {
+            "id": 34263,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "imagination"
+            ],
+            "url": "https://favqs.com/quotes/percy-bysshe-shelley/34263-reason-respec-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Percy Bysshe Shelley",
+            "author_permalink": "percy-bysshe-shelley",
+            "body": "Reason respects the differences, and imagination the similitudes of things."
+        },
+        {
+            "id": 6824,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "best",
+                "fear",
+                "men"
+            ],
+            "url": "https://favqs.com/quotes/george-s-patton/6824-battle-is-the--",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "George S. Patton",
+            "author_permalink": "george-s-patton",
+            "body": "Battle is the most magnificent competition in which a human being can indulge. It brings out all that is best it removes all that is base. All men are afraid in battle. The coward is the one who lets his fear overcome his sense of duty. Duty is the essence of manhood."
+        },
+        {
+            "id": 527,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "amazon",
+                "business",
+                "frugal",
+                "invention"
+            ],
+            "url": "https://favqs.com/quotes/jeff-bezos/527-i-think-frugali-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Jeff Bezos",
+            "author_permalink": "jeff-bezos",
+            "body": "I think frugality drives innovation, just like other constraints do. One of the only ways to get out of a tight box is to invent your way out."
+        },
+        {
+            "id": 63655,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/j-r-r-tolkien/63655-a-single-drea-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "J. R. R. Tolkien",
+            "author_permalink": "j-r-r-tolkien",
+            "body": "A single dream is more powerful than a thousand realities."
+        },
+        {
+            "id": 4637,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "art",
+                "beauty",
+                "love"
+            ],
+            "url": "https://favqs.com/quotes/pablo-picasso/4637-art-is-not-the-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Pablo Picasso",
+            "author_permalink": "pablo-picasso",
+            "body": "Art is not the application of a canon of beauty but what the instinct and the brain can conceive beyond any canon. When we love a woman we don't start measuring her limbs."
+        },
+        {
+            "id": 1897,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "alone",
+                "work"
+            ],
+            "url": "https://favqs.com/quotes/thomas-carlyle/1897-work-alone-is--",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Thomas Carlyle",
+            "author_permalink": "thomas-carlyle",
+            "body": "Work alone is noble."
+        },
+        {
+            "id": 26841,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "god",
+                "nature"
+            ],
+            "url": "https://favqs.com/quotes/woody-allen/26841-as-the-poet-s-",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Woody Allen",
+            "author_permalink": "woody-allen",
+            "body": "As the poet said, 'Only God can make a tree,' probably because it's so hard to figure out how to get the bark on."
+        },
+        {
+            "id": 44924,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "nature",
+                "power"
+            ],
+            "url": "https://favqs.com/quotes/thomas-aquinas/44924-as-regards-th-",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Thomas Aquinas",
+            "author_permalink": "thomas-aquinas",
+            "body": "As regards the individual nature, woman is defective and misbegotten, for the active power of the male seed tends to the production of a perfect likeness in the masculine sex while the production of a woman comes from defect in the active power."
+        },
+        {
+            "id": 62744,
+            "dialogue": false,
+            "source": "https://www.goodreads.com/author/quotes/19010963.Giovanni_Morassutti",
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/giovanni-morassutti/62744-follow-your-b-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Giovanni Morassutti ",
+            "author_permalink": "giovanni-morassutti",
+            "body": "Follow your body because most of the time it knows where to go"
+        },
+        {
+            "id": 683,
+            "dialogue": false,
+            "source": "https://royalsociety.org/about-us/history/",
+            "context": "The Royal Society's motto which roughly translates to 'take nobody's word for it'.",
+            "private": false,
+            "tags": [
+                "latin",
+                "motto"
+            ],
+            "url": "https://favqs.com/quotes/anonymous/683-nullius-in-verba",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Anonymous",
+            "author_permalink": "anonymous",
+            "body": "Nullius in verba"
+        },
+        {
+            "id": 34760,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "inspirational"
+            ],
+            "url": "https://favqs.com/quotes/harry-emerson-fosdick/34760-it-is-by-acts-",
+            "favorites_count": 3,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Harry Emerson Fosdick",
+            "author_permalink": "harry-emerson-fosdick",
+            "body": "It is by acts and not by ideas that people live."
+        },
+        {
+            "id": 274,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "civil-rights",
+                "character",
+                "revolution"
+            ],
+            "url": "https://favqs.com/quotes/martin-luther-king-jr/274-i-have-consiste-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Martin Luther King, Jr.",
+            "author_permalink": "martin-luther-king-jr",
+            "body": "I have consistently preached that nonviolence demands that the means we use must be as pure as the ends we seek."
+        },
+        {
+            "id": 3650,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "anger"
+            ],
+            "url": "https://favqs.com/quotes/mark-twain/3650-when-angry-cou-",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Mark Twain",
+            "author_permalink": "mark-twain",
+            "body": "When angry, count to four; when very angry, swear."
+        },
+        {
+            "id": 21364,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "fear"
+            ],
+            "url": "https://favqs.com/quotes/confucius/21364-if-you-look-i-",
+            "favorites_count": 1,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Confucius",
+            "author_permalink": "confucius",
+            "body": "If you look into your own heart, and you find nothing wrong there, what is there to worry about? What is there to fear?"
+        },
+        {
+            "id": 24272,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "friendship"
+            ],
+            "url": "https://favqs.com/quotes/oprah-winfrey/24272-lots-of-peopl-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Oprah Winfrey",
+            "author_permalink": "oprah-winfrey",
+            "body": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down."
+        },
+        {
+            "id": 62556,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/jim-rohn/62556-formal-educat-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Jim Rohn",
+            "author_permalink": "jim-rohn",
+            "body": "Formal education will make you a living; self-education will make you a fortune."
+        },
+        {
+            "id": 6776,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "best",
+                "dreams"
+            ],
+            "url": "https://favqs.com/quotes/dalai-lama/6776-sleep-is-the-b-",
+            "favorites_count": 8,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Dalai Lama",
+            "author_permalink": "dalai-lama",
+            "body": "Sleep is the best meditation."
+        },
+        {
+            "id": 286,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "funny",
+                "author",
+                "compliments"
+            ],
+            "url": "https://favqs.com/quotes/mark-twain/286-i-have-been-com-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 1,
+            "author": "Mark Twain",
+            "author_permalink": "mark-twain",
+            "body": "I have been complimented many times and they always embarrass me; I always feel that they have not said enough."
+        },
+        {
+            "id": 24737,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "funny"
+            ],
+            "url": "https://favqs.com/quotes/mitch-hedberg/24737-i-drank-some--",
+            "favorites_count": 1,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Mitch Hedberg",
+            "author_permalink": "mitch-hedberg",
+            "body": "I drank some boiling water because I wanted to whistle."
+        },
+        {
+            "id": 63592,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/david-deida/63592-good-artists--",
+            "favorites_count": 3,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "David Deida",
+            "author_permalink": "david-deida",
+            "body": "Good artists are skilled, but great artists convey an immense depth of feeling through their expertise."
+        },
+        {
+            "id": 706,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "age",
+                "morning"
+            ],
+            "url": "https://favqs.com/quotes/kurt-vonnegut/706-true-terror-is--",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Kurt Vonnegut",
+            "author_permalink": "kurt-vonnegut",
+            "body": "True terror is to wake up one morning and discover that your high school class is running the country."
+        }
+    ]
+}
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:50 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 28
+etag: W/"0ac40e3c3379d6cbc3a191073805f379"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 9a71a625-9ef6-4f2f-8870-067f4cf37fe4
+x-runtime: 0.226990
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "page": 1,
+    "last_page": false,
+    "quotes": [
+        {
+            "id": 6788,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "best",
+                "hope",
+                "inspirational"
+            ],
+            "url": "https://favqs.com/quotes/benjamin-disraeli/6788-i-am-prepared--",
+            "favorites_count": 2,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Benjamin Disraeli",
+            "author_permalink": "benjamin-disraeli",
+            "body": "I am prepared for the worst, but hope for the best."
+        },
+        {
+            "id": 62529,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/marcus-aurelius/62529-very-little-i-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Marcus Aurelius",
+            "author_permalink": "marcus-aurelius",
+            "body": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking."
+        },
+        {
+            "id": 477,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "thought",
+                "mind"
+            ],
+            "url": "https://favqs.com/quotes/winston-churchill/477-the-empires-of--",
+            "favorites_count": 3,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Winston Churchill",
+            "author_permalink": "winston-churchill",
+            "body": "The empires of the future are the empires of the mind."
+        },
+        {
+            "id": 17030,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "equality"
+            ],
+            "url": "https://favqs.com/quotes/will-rogers/17030-we-will-never-",
+            "favorites_count": 3,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Will Rogers",
+            "author_permalink": "will-rogers",
+            "body": "We will never have true civilization until we have learned to recognize the rights of others."
+        },
+        {
+            "id": 29105,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "great",
+                "success"
+            ],
+            "url": "https://favqs.com/quotes/friedrich-nietzsche/29105-success-has-a-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Friedrich Nietzsche",
+            "author_permalink": "friedrich-nietzsche",
+            "body": "Success has always been a great liar."
+        },
+        {
+            "id": 320,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "silence"
+            ],
+            "url": "https://favqs.com/quotes/mark-twain/320-it-is-better-to-",
+            "favorites_count": 3,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Mark Twain",
+            "author_permalink": "mark-twain",
+            "body": "It is better to keep your mouth shut and appear stupid than to open it and remove all doubt."
+        },
+        {
+            "id": 62480,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/diogenes-of-sinope/62480-wise-leaders--",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Diogenes of Sinope",
+            "author_permalink": "diogenes-of-sinope",
+            "body": "Wise leaders generally have wise counselors because it takes a wise person themselves to distinguish them."
+        },
+        {
+            "id": 44789,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "nature",
+                "time"
+            ],
+            "url": "https://favqs.com/quotes/william-shakespeare/44789-nature-hath-f-",
+            "favorites_count": 1,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "William Shakespeare",
+            "author_permalink": "william-shakespeare",
+            "body": "Nature hath framed strange fellows in her time."
+        },
+        {
+            "id": 29020,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "great",
+                "time"
+            ],
+            "url": "https://favqs.com/quotes/maya-angelou/29020-all-great-ach-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Maya Angelou",
+            "author_permalink": "maya-angelou",
+            "body": "All great achievements require time."
+        },
+        {
+            "id": 27392,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "good",
+                "jealousy",
+                "men"
+            ],
+            "url": "https://favqs.com/quotes/aristotle/27392-jealousy-is-b-",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Aristotle",
+            "author_permalink": "aristotle",
+            "body": "Jealousy is both reasonable and belongs to reasonable men, while envy is base and belongs to the base, for the one makes himself get good things by jealousy, while the other does not allow his neighbour to have them through envy."
+        },
+        {
+            "id": 63254,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/albet-peter/63254-never-let-you-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Albet Peter",
+            "author_permalink": "albet-peter",
+            "body": "Never let your College interfere with your education...."
+        },
+        {
+            "id": 64012,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/sanjeet/64012-jesaa-hello-w-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "sanjeet",
+            "author_permalink": "sanjeet",
+            "body": "Jesaa hello world"
+        },
+        {
+            "id": 36744,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "learning"
+            ],
+            "url": "https://favqs.com/quotes/michelangelo/36744-i-am-still-le-",
+            "favorites_count": 4,
+            "upvotes_count": 2,
+            "downvotes_count": 1,
+            "author": "Michelangelo",
+            "author_permalink": "michelangelo",
+            "body": "I am still learning."
+        },
+        {
+            "id": 7208,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "best"
+            ],
+            "url": "https://favqs.com/quotes/samuel-butler/7208-priests-are-no-",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Samuel Butler",
+            "author_permalink": "samuel-butler",
+            "body": "Priests are not men of the world it is not intended that they should be and a University training is the one best adapted to prevent their becoming so."
+        },
+        {
+            "id": 9574,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "change",
+                "nature"
+            ],
+            "url": "https://favqs.com/quotes/marcus-aurelius/9574-loss-is-nothin-",
+            "favorites_count": 3,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Marcus Aurelius",
+            "author_permalink": "marcus-aurelius",
+            "body": "Loss is nothing else but change, and change is Nature's delight."
+        },
+        {
+            "id": 17341,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "experience",
+                "wisdom"
+            ],
+            "url": "https://favqs.com/quotes/confucius/17341-by-three-meth-",
+            "favorites_count": 1,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Confucius",
+            "author_permalink": "confucius",
+            "body": "By three methods we may learn wisdom: First, by reflection, which is noblest Second, by imitation, which is easiest and third by experience, which is the bitterest."
+        },
+        {
+            "id": 62059,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                
+            ],
+            "url": "https://favqs.com/quotes/abdu-l-baha/62059-to-be-approve-",
+            "favorites_count": 2,
+            "upvotes_count": 0,
+            "downvotes_count": 0,
+            "author": "Abdu'l-Baha",
+            "author_permalink": "abdu-l-baha",
+            "body": "To be approved of God alone should be one's aim."
+        },
+        {
+            "id": 574,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "apple",
+                "programming"
+            ],
+            "url": "https://favqs.com/quotes/steve-jobs/574-learning-to-pro-",
+            "favorites_count": 3,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Steve Jobs",
+            "author_permalink": "steve-jobs",
+            "body": "Learning to program teaches you how to think. Computer science is a liberal art."
+        },
+        {
+            "id": 24700,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "funny"
+            ],
+            "url": "https://favqs.com/quotes/yogi-berra/24700-a-nickel-ain--",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Yogi Berra",
+            "author_permalink": "yogi-berra",
+            "body": "A nickel ain't worth a dime anymore."
+        },
+        {
+            "id": 45729,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "peace"
+            ],
+            "url": "https://favqs.com/quotes/mahatma-gandhi/45729-peace-is-its--",
+            "favorites_count": 0,
+            "upvotes_count": 2,
+            "downvotes_count": 0,
+            "author": "Mahatma Gandhi",
+            "author_permalink": "mahatma-gandhi",
+            "body": "Peace is its own reward."
+        },
+        {
+            "id": 3646,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "anger",
+                "truth"
+            ],
+            "url": "https://favqs.com/quotes/buddha/3646-in-a-controver-",
+            "favorites_count": 8,
+            "upvotes_count": 3,
+            "downvotes_count": 0,
+            "author": "Buddha",
+            "author_permalink": "buddha",
+            "body": "In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves."
+        },
+        {
+            "id": 21365,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "fear"
+            ],
+            "url": "https://favqs.com/quotes/c-s-lewis/21365-no-one-ever-t-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "C. S. Lewis",
+            "author_permalink": "c-s-lewis",
+            "body": "No one ever told me that grief felt so like fear."
+        },
+        {
+            "id": 332,
+            "dialogue": false,
+            "source": "With Honors, 1994.  Film.",
+            "private": false,
+            "tags": [
+                "running",
+                "success",
+                "passion",
+                "movie",
+                "with-honors"
+            ],
+            "url": "https://favqs.com/quotes/simon-wilder/332-winners-forget--",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Simon Wilder",
+            "author_permalink": "simon-wilder",
+            "body": "Winners forget they're in a race, they just love to run."
+        },
+        {
+            "id": 59362,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "war"
+            ],
+            "url": "https://favqs.com/quotes/samuel-butler/59362-a-skilful-lee-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Samuel Butler",
+            "author_permalink": "samuel-butler",
+            "body": "A skilful leech is better far, than half a hundred men of war."
+        },
+        {
+            "id": 616,
+            "dialogue": false,
+            "private": false,
+            "tags": [
+                "funny"
+            ],
+            "url": "https://favqs.com/quotes/anonymous/616-after-all-is-sa-",
+            "favorites_count": 2,
+            "upvotes_count": 1,
+            "downvotes_count": 0,
+            "author": "Anonymous",
+            "author_permalink": "anonymous",
+            "body": "After all is said and done - more is said than done."
+        }
+    ]
+}
+HTTP/1.1 401 Unauthorized
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:50 GMT
+content-type: text/plain; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 27
+www-authenticate: Token realm="Application"
+cache-control: no-cache
+x-request-id: 5cf658b6-1a9b-4bca-98d9-42843e3c24b1
+x-runtime: 0.005715
+strict-transport-security: max-age=31540000
+
+HTTP Token: Access denied.
+
+HTTP/1.1 401 Unauthorized
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:51 GMT
+content-type: text/plain; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 26
+www-authenticate: Token realm="Application"
+cache-control: no-cache
+x-request-id: 7ea0fc4b-753b-49fa-bc43-83f77d412573
+x-runtime: 0.003243
+strict-transport-security: max-age=31540000
+
+HTTP Token: Access denied.
+
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:51 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 25
+etag: W/"980d8fb2295fbbdc115050e024a07fe8"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: e7644e5e-2df0-4f87-924b-ab0b6a4c07e7
+x-runtime: 0.032083
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "id": 42861,
+    "dialogue": false,
+    "private": false,
+    "tags": [
+        "motivational"
+    ],
+    "url": "https://favqs.com/quotes/dalai-lama/42861-be-kind-whene-",
+    "favorites_count": 2,
+    "upvotes_count": 1,
+    "downvotes_count": 0,
+    "author": "Dalai Lama",
+    "author_permalink": "dalai-lama",
+    "body": "Be kind whenever possible. It is always possible."
+}
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:52 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 24
+etag: W/"38b850bdd1d8ccab3ae162ae22088f33"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 63ef98a9-65a8-48da-84c7-d58e42cd2188
+x-runtime: 0.338084
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "error_code": 32,
+    "message": "Username has already been taken; Username must contain at least one letter; Email has already been taken"
+}
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:53 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 23
+etag: W/"230432b5fff6426f1796229856ebfc28"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _favqs_session=%2FKjMXubxaYmPGKRziMfIXRDLNUR%2B6Xkzlqi5BajStWU3zv02Oe3z%2FY%2BcxtGERUFGd0jkC3%2B5Pw4uCr9iz9gcHaBUv0y3P6tQy8%2BwEPja9wSOjmyius5A70VP7AgAsSl7lSSjXu7f2VIugf%2F0btcrbIVBG2cO3kpi2kMvzp2tQqdjWfBhJceO9wCAwxyDqdGv8VIeCHjZIfsW2pk%2F--Ea56360aVDXKsbGm--ei21BDEg9q3BRz0XManAFA%3D%3D; path=/; expires=Thu, 15 Feb 2024 16:26:53 GMT; HttpOnly; SameSite=Lax
+x-request-id: cf32c61f-3e53-4bec-8530-f2574aaf26e0
+x-runtime: 0.357763
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "User-Token": "Au7z379UK/8NhQg4HJdwioP/D04tGGl8I0bZFcGBKJpBAfy5uMbRXsVgqrbJFCT2UG9q7JuYHSRDjUEDegRVow==",
+    "login": "suruthijeevan"
+}
+Au7z379UK/8NhQg4HJdwioP/D04tGGl8I0bZFcGBKJpBAfy5uMbRXsVgqrbJFCT2UG9q7JuYHSRDjUEDegRVow==
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:54 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 22
+etag: W/"5619622fd4d5b29ed543c5e55869ad72"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _favqs_session=XDenayiH3kw8pk031oz%2B1vZCs7SFuZNtkBJtd96580MxlDkLYTPU%2FWeqvg7EnwPaMKXJwKHqmGZDqNeh6Uqn3Je%2FX%2F8Z1pOwL2SgMYY9cJ%2BoTWEUVLq%2FBF4JOTxaNMrouN54I69eYx79RwTVyFWrOSMC6M8l0crQM%2FFC09LUGLOOV1s%2Bg5FLjvm0%2FJ6x8LZlSi4bNZKnsxbJs6uB--Bokd8B%2F3mPhUErxR--Cxgw1RBVu4srROQimkXWqQ%3D%3D; path=/; expires=Thu, 15 Feb 2024 16:26:54 GMT; HttpOnly; SameSite=Lax
+x-request-id: 29230390-e0d2-449c-89e8-1a4fc02c7e22
+x-runtime: 0.345629
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "User-Token": "KY/LQnoXOrIX2jVN2n4kZCVT4jEtHyPvnLf1VDhnNcYgzGPBmlZ5noFYc9e6t8mecXSFm9U8upf7mr+DJhmMEQ==",
+    "login": "suruthijeevan",
+    "email": "suruthijeevan@gmail.com"
+}
+KY/LQnoXOrIX2jVN2n4kZCVT4jEtHyPvnLf1VDhnNcYgzGPBmlZ5noFYc9e6t8mecXSFm9U8upf7mr+DJhmMEQ==
+inside testMarkQuoteAsFavorite_after_creating_user_session KY/LQnoXOrIX2jVN2n4kZCVT4jEtHyPvnLf1VDhnNcYgzGPBmlZ5noFYc9e6t8mecXSFm9U8upf7mr+DJhmMEQ==
+https://favqs.com/api/quotes/{quoteId}
+HTTP/1.1 200 OK
+server: nginx/1.18.0 (Ubuntu)
+date: Tue, 16 Jan 2024 16:26:55 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+rate-limit-remaining: 21
+etag: W/"f711ed66b0cad5fbdcb1e5fa0e7dada1"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 2b38f52d-7ed2-4155-9ba3-69e5b06f3bba
+x-runtime: 0.010955
+x-backend-server: ip-10-0-1-10
+strict-transport-security: max-age=31540000
+
+{
+    "error_code": 20,
+    "message": "No user session found."
+}
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v9.Java9 (file:/C:/Users/91965/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar) to constructor java.lang.AssertionError(java.lang.String)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v9.Java9
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+PASSED: QUOTES_Endpoint.HTTPRequests.create_user_session
+PASSED: QUOTES_Endpoint.HTTPRequests.getQuotes_checkStatus
+PASSED: QUOTES_Endpoint.HTTPRequests.testGetQuoteById
+PASSED: QUOTES_Endpoint.HTTPRequests.getQuotes_checkStatus_invalid_apikey
+PASSED: QUOTES_Endpoint.HTTPRequests.getQuotes_checkStatus_no_apikey
+PASSED: QUOTES_Endpoint.HTTPRequests.create_user
+PASSED: QUOTES_Endpoint.HTTPRequests.try_creating_an_exisitng_user
+PASSED: QUOTES_Endpoint.HTTPRequests.getQuotes_checkBody
+FAILED: QUOTES_Endpoint.HTTPRequests.testMarkQuoteAsFavorite_after_creating_user_session
+java.lang.AssertionError: 1 expectation failed.
+JSON path favourite doesn't match.
+Expected: True
+  Actual: null
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor55.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at QUOTES_Endpoint.HTTPRequests.testMarkQuoteAsFavorite_after_creating_user_session(HTTPRequests.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+    Default test
+    Tests run: 9, Failures: 1, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 9, Passes: 8, Failures: 1, Skips: 0
+===============================================
+
