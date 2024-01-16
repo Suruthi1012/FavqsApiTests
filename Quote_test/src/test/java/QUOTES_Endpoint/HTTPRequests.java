@@ -123,8 +123,8 @@ public class HTTPRequests {
         		.statusCode(200)
         		.log().all()
         		.body("User-Token", equalTo(response.jsonPath().getString("User-Token")))
-        		.body("login", equalTo("suruthi12"))
-        		.body("email", equalTo("suruthi12@gmail.com"));
+        		.body("login", equalTo(login))
+        		.body("email", equalTo(email));
         
         userToken = response.jsonPath().getString("User-Token");
         System.out.println(userToken);
