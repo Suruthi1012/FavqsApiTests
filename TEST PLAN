@@ -1,0 +1,111 @@
+TEST PLAN
+
+Technical Test – Quality Engineer HMH
+
+Prepared By: 
+Suruthi Thoppey Jeevanlal
+14-01-2024
+
+CONTENTS
+
+1 INTRODUCTION
+	- This document is a test plan to validate the FAV QUOTES and LIST QUOTES endpoint via Automation cases.
+
+2 Objectives
+	- To automate testing of the FavQS API, focusing on the main functionality of the FAV QUOTE and LIST QUOTE endpoints.
+
+3 SCOPE
+	- The test plan covers the creation of a user session, authentication, and testing the FAV QUOTE endpoint.
+	- It also covers the testing of LIST QUOTES endpoint.
+
+
+4 Testing Strategy
+	- Alpha Testing (Unit Testing)
+	  NA
+	- System and Integration Testing
+	  NA
+	- Performance and Stress Testing
+	  NA
+	- User Acceptance Testing
+	  NA
+	- Automated Regression Testing
+	  Yes
+	- Beta Testing
+	  NA
+
+5 Hardware Requirements
+	NA
+
+6 Environment Requirements
+	- API Base URL: https://favqs.com/api
+	- Authentication: Auth0 with Resource Owner Password Grant (ROPG)
+	- Tools:
+		RESTAssured for API testing
+		TestNG for test execution
+		Gson for JSON parsing
+	- Dependencies: Ensure internet connectivity and necessary dependencies are installed.
+
+
+7 Test Scenarios:
+i. LIST QUOTES Endpoint:
+	Objective: Validate the main functionality of the LIST QUOTES endpoint.
+ 	Positive Test:
+		List all quotes available.
+		Validate that the response to check the returned status code.
+		Validate that the response to check the body of listed data for the parameters that are not randomised.
+	Negative Tests:
+		Attempt to get LIST QUOTES with an invalid API Key.
+		Attempt to get LIST QUOTES without an API Key for Authorization.
+
+2. User Creation:
+	Objective: Verify that a user can be successfully created.
+	Positive Test:
+		Provide valid login credentials > Login/Passowrd/Email ID
+		Validate that a User-Token is returned in the response along with the Login credential.
+	Negative Tests:
+		Try creating an existing user
+	Ensure the proper error responses are received.
+
+3. User Session Creation (Authentication)
+	Objective: Verify that a user session can be successfully created.
+	Positive Test:
+		Provide valid login credentials.>Login/Passowrd
+		Validate that a User-Token is returned in the respons along with login and email. 
+4. FAV QUOTE Endpoint
+	Objective: Validate the main functionality of the FAV QUOTE endpoint.
+	Positive Test:
+		Mark a quote as a favorite.
+		Validate that the response indicates the quote is marked as a favorite.
+
+
+Test Execution Strategy
+	Sequential Execution:
+		Execute the test scenarios in a sequence.
+
+5. Test Data
+Credentials:
+Valid username/email and password.
+
+6. Test Execution
+Run the Test Suite: Execute the automated test suite using TestNG.
+Logging and Reporting: Refer generated reports from test results.
+
+8. Test Environment Management
+Environment Setup: Ensure the test environment is configured correctly.
+Data Cleanup: Implement mechanisms to clean up data after test execution.
+
+7. Defect Management
+Capture Defects: Record any defects identified during testing.
+Defect Classification: Prioritize defects based on severity and impact.
+
+
+8. Exit Criteria
+Pass/Fail Criteria: Define criteria for determining whether the test execution was successful.
+
+9. Test Deliverables
+Automation Code: Provide the link to the GitHub repository containing the automation code.
+Test Reports: Share generated test reports.
+
+10 Review and Approvals
+Review: Conduct a review of the test plan with relevant stakeholders.
+Approval: Obtain approval before test execution.
