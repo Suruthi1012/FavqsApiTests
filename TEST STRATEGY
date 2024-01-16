@@ -1,0 +1,27 @@
+### Scope:
+Review person - Brendan Donegan
+Approval provided by -
+Test Activities - Test and Automate a suite of tests that validates the main functionality of the FAV QUOTE and LIST QUOTES endpoint.
+
+### Test Approach:
+Process and Approach - Prepare test inputs for the two endpoints FAV QUOTE and LIST QUOTES and automate them using RestAssured and upload the ATC's in GitHub in an accessible form where uses can check the functionality.
+Automation done using - Java / TestNG / RestAssured
+
+### Test Environment:
+Requirements and setup 
+	- Internet Connectivity
+	- Java Eclipse IDE workspace.
+	- Maven Project with classes created.
+	- Necessary dependencies included in the pom.xml file.
+	- Necessary packages need to be imported.
+
+### Testing tools:
+Automation tools
+	- Automation tool used : RESTAssured
+	- Test Framework uses : TestNG
+	
+### Other opensource and commercial tools: 
+	- GitHub for uploading the project
+
+### Release control:
+Release management plan - One release with cases to validate the FAV QUOTE and LIST QUOTES endpoints.
