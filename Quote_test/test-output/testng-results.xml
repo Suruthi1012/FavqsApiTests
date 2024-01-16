@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-16T15:10:04 GMT" name="Default suite" finished-at="2024-01-16T15:10:20 GMT" duration-ms="15917">
+    <groups>
+    </groups>
+    <test started-at="2024-01-16T15:10:04 GMT" name="Default test" finished-at="2024-01-16T15:10:20 GMT" duration-ms="15917">
+      <class name="QUOTES_Endpoint.HTTPRequests">
+        <test-method signature="getQuotes_checkBody()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:04 GMT" name="getQuotes_checkBody" finished-at="2024-01-16T15:10:10 GMT" duration-ms="6408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuotes_checkBody -->
+        <test-method signature="getQuotes_checkStatus()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:10 GMT" name="getQuotes_checkStatus" finished-at="2024-01-16T15:10:12 GMT" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuotes_checkStatus -->
+        <test-method signature="getQuotes_checkStatus_invalid_apikey()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:12 GMT" name="getQuotes_checkStatus_invalid_apikey" finished-at="2024-01-16T15:10:13 GMT" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuotes_checkStatus_invalid_apikey -->
+        <test-method signature="getQuotes_checkStatus_no_apikey()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:13 GMT" name="getQuotes_checkStatus_no_apikey" finished-at="2024-01-16T15:10:14 GMT" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuotes_checkStatus_no_apikey -->
+        <test-method signature="testGetQuoteById()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:14 GMT" name="testGetQuoteById" finished-at="2024-01-16T15:10:15 GMT" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetQuoteById -->
+        <test-method signature="testUnmarkQuoteAsFavorite()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:15 GMT" name="testUnmarkQuoteAsFavorite" finished-at="2024-01-16T15:10:16 GMT" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnmarkQuoteAsFavorite -->
+        <test-method signature="try_creating_an_exisitng_user()[pri:0, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:16 GMT" name="try_creating_an_exisitng_user" finished-at="2024-01-16T15:10:17 GMT" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- try_creating_an_exisitng_user -->
+        <test-method signature="create_user()[pri:1, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:17 GMT" name="create_user" finished-at="2024-01-16T15:10:18 GMT" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_user -->
+        <test-method signature="create_user_session()[pri:2, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:18 GMT" name="create_user_session" finished-at="2024-01-16T15:10:19 GMT" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_user_session -->
+        <test-method signature="testMarkQuoteAsFavorite_after_creating_user_session()[pri:3, instance:QUOTES_Endpoint.HTTPRequests@2a798d51]" started-at="2024-01-16T15:10:19 GMT" name="testMarkQuoteAsFavorite_after_creating_user_session" finished-at="2024-01-16T15:10:20 GMT" depends-on-methods="QUOTES_Endpoint.HTTPRequests.create_user_session" duration-ms="941" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path favourite doesn't match.
+Expected: True
+  Actual: null
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path favourite doesn't match.
+Expected: True
+  Actual: null
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+at QUOTES_Endpoint.HTTPRequests.testMarkQuoteAsFavorite_after_creating_user_session(HTTPRequests.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarkQuoteAsFavorite_after_creating_user_session -->
+      </class> <!-- QUOTES_Endpoint.HTTPRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
