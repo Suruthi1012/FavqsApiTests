@@ -7,5 +7,8 @@ Test Cases : testcases.xls
 
 
 Unfortunately, I wasn't able to obtain a proper working output for the FAV QUOTE Endpoint. However, I have included the test case in the suite. 
-Issue Faced : I was able to create a user session after creating a user. The user session also reflected a User-token which was invoked in the header part of the FAVQUOTE testcase. But an error is seen saying that ""No user session found"".
+Issue Faced : 
+  > I was able to create a user session after creating a user. 
+  > The user session also reflected a User-token which was invoked in the header part of the FAVQUOTE testcase. 
+  > But an error is seen saying that ""No user session found"".
 Thanks!
